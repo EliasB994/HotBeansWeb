@@ -12,15 +12,3 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>
 );
-
-
-
-
-/* src/App.css */
-.page-content {
-  padding-top: 80px; /* account for sticky nav height */
-  min-height: calc(100vh - 160px); /* nav + footer */
-}
-
-/* fade-enter, exit classes handled in global styles.css */
-
